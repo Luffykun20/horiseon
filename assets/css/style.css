@@ -38,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/* how the list-style of  list of items in nav element are exhibited */
 header nav ul {
     list-style-type: none;
 }
 
+/* how list items are displayed on nav element */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* font-color applied to hyperlinks */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* font-size enforced on paragraphs of section elements */
 p {
     font-size: 16px;
 }
 
+/* characteristics applied to background-image in body element */
 figure {
     height: 800px;
     width: 100%;
@@ -64,7 +69,7 @@ figure {
     background-size: cover;
     background-position: center;
 }
-
+/* the float property is presented on these classes that are applied to the images in the section-1 */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,12 +80,14 @@ figure {
     margin-left: 25px;
 }
 
+/* features enforced on conten of section-1 element */
 section-1 {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* features applied on content of section-2 element */
 section-2 {
     margin-right: 20px;
     padding: 20px;
@@ -92,22 +99,26 @@ section-2 {
     background-color: #2589bd;
 }
 
+/* properties applied to this class that are presented in section-2 element */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* characteristics shown on heading contexts from section-2 element */
 section-2 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* features presented on images in section-2 element */
 section-2 img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* properties applied to this class that are displayed on the section-1 element */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -117,15 +128,18 @@ section-2 img {
     color: #ffffff;
 }
 
+ /* feature enforced on images in section-1 element */
 section-1 img {
     max-height: 200px;
 }
 
+/* characteristics shown on heading contexts from section-1 element */
 section-1 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* properties applied  to footer element */
 footer {
     padding: 30px;
     clear: both;
@@ -133,6 +147,7 @@ footer {
     text-align: center;
 }
 
+/* font-size property used on heading context from footer element */
 footer h2 {
     font-size: 20px;
 }
